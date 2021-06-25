@@ -132,7 +132,7 @@ export default class GithubV4 implements VssueAPI.Instance {
       {
         client_id: this.clientId,
         redirect_uri: window.location.href,
-        scope: 'public_repo',
+        scope: 'repo',
         state: this.state,
       }
     );
